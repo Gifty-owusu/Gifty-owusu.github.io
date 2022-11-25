@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+.container{
+    background-image: url(/assets/bg-main-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+   }
+
+   h2{
+    font-size: 40px;
+    padding-left: 35px;
+    font-family: IBM Plex sans;
+    padding-top: 50px;
+   }
+
+img{
+    height: 468px;
+    width: 312px;
+    position: absolute;
+    left: 1100px;
+    top: 0px;
+  }
+
+h1{
+    font-family: IBM Plex sans;
+    font-style: normal;
+    font-size: 88px;
+    font-weight: 700px;
+    line-height: 88px;
+    width: 1015px;
+    margin-top: 111px;
+    margin-right: 165px;
+    margin-left: 35px;
+    letter-spacing: -1px;
+}
+
+     .description{
+        font-family: IBM Plex sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400px;
+        line-height: 34px;
+        width: 852px;
+        height: 102px;
+        margin-left: 30px;
+        margin-top: 20px;
+     }
+
+    .section{
+         width: 1110px;
+         height: 539px;
+         background: #191826;
+         border-radius: 12px;
+         margin-top: 200px;
+         margin-left: 50px;
+         }
+
+.illustration-app{
+       position: absolute;
+       height: 642px;
+       width: 312px;
+       left: 350px;
+       top: 500px;
+       margin-top: 150px;
+}
+
+.background-design{
+   position: absolute;
+   left: 584px;
+   top: 850px;
+   width: 312px;
+   height: 438px;
+}
+
+.subscription{
+   height: 625px;
+   width: 446px;
+   background: #fa7453;
+   border-radius: 12px;
+   position: absolute;
+   top: 950px;
+   left: 420px;
+   margin: 10px 380px 120px 380px;
+}
+
+ .subscription-plan{
+   font-family: IBM Plex sans;
+   font-size: 40px;
+   font-weight: 700;
+   font-style: normal;
+   color: #fcfaf9;
+   line-height: 52px;
+   padding-left: 20px;
+   padding-right: 59px;
+   padding-top: 15px;
+}
+
+ .subscription-info{
+   font-family: IBM Plex sans;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 34px;
+   padding: 10px 10px 59px 10px;
+   color: #fcfaf9;
+   text-align: left;
+   
+ }  
+ .price{
+  padding: 10px 50px 50px 55px;
+ color: #fcfaf9;
+ font-family: IBM Plex sans;
+ 
+ }
+ 
+ #price{
+   font-size: 50px;
+   font-weight: 900px;
+  position: relative;
+  top: 10px;
+  color: #fcfaf9;
+ }
+
+ .apple-download{
+   width: 333px;
+   height: 61px;
+   background-color: #191326;
+   border-radius: 12px;
+   opacity: 0.12;
+    margin: auto;
+ }
+
+ .apple{
+font-family: IBM Plex sans;
+font-size: 18px;
+color: #fcfaf9;
+font-style: normal;
+font-weight: 700;
+letter-spacing: -0.18px;
+line-height: 32px;
+position: relative;
+top: 15px;
+left: 90px;
+ }
+
+ #apple-icon{
+   color: #fcfaf9;
+
+}
+.android-download{
+   width: 333px;
+   height: 61px;
+   background: #fcfaf9;
+   border-radius: 12px;
+   position: relative;
+   top: 50px;
+   left: 50px;
+   right: 50px;
+}
+
+#android-icon{
+color: #191326;
+}
+ 
+.android{
+   font-family: IBM Plex sans;
+   font-style: normal;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 32px;
+   position: relative;
+   top: 15px;
+   left: 80px;
+}
+
+#footer{
+   font-family: IBM Plex sans;
+   position: absolute;
+   top: 108em;
+   display: flex;
+   flex-direction: row;
+}
+
+.equilizer-footer{
+    font-size: 40px;
+    margin-left: 35px;
+    position: absolute;
+    bottom: 20px;
+    margin-top: 0px;
+   }
+
+.Contact-info{
+   font-family: IBM Plex sans;
+   width: 350px;
+   font-size: 16px;
+   line-height: 26px;
+   font-weight: 400;
+   margin-left: 400px;
+   text-align: left;
+  }
+
+span{
+   color: #191826;
+   font-weight: 700;
+   font-size: 16px;
+}
+
+.social-icons{
+  margin-left: 500px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+}
+#facebook{
+   
+   padding-right: 20px;
+}
+#instagram{
+   padding-right: 20px;
+}
+#twitter{
+   padding-right: 20px;
+}
+
+
+/*desktop active*/
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+   body{
+   padding: 0px;
+   margin: 0px;
+   }
+   .apple-download:hover{
+      background-color: #66e2dc;
+      opacity: 0.7;
+   }
+   .android-download:hover{
+      background-color: #ffb964;
+   }
+   .section{
+      max-width: 1110px;
+      min-height: 600px;
+   }
+   .background-design{
+      top: 780px;
+   }
+   .illustration-app{
+      top: 400px;
+   }
+   .subscription{
+     top: 900px
+   }
+    }
+
+/*tablet*/
+@media only screen and  (min-width: 481px) and (max-width: 768px){
+
+   body{
+      margin: 0px;
+      padding: 0px;
+      min-height: 100vh;
+   }
+
+   .container{
+      background-image: url(/assets/bg-main-tablet.png);
+      margin: 0px;
+      padding: 0px;
+      max-width: 768px;
+     overflow-x: hidden;
+   }
+
+   h1{
+      font-size: 64px;
+      width: 520px;
+      height: 192px;
+      line-height: 64px;
+      letter-spacing: -0.73;
+   }
+
+   img{
+      position: absolute;
+      left: 505px;
+   }
+
+   .description{
+      font-size: 18px;
+      width: 514px;
+      height: 112px;
+      margin-top: 50px;
+   }
+
+   .section{
+      width: 696px;
+      height: 600px;
+      margin-left: 30px;
+   }
+
+   .illustration-app{
+      position: absolute;
+      left: 90px;
+   }
+
+   .background-design{
+      position: absolute;
+      left: 290px;
+      margin-top: 0px;
+   }
+
+   .subscription{
+   position: absolute;
+      left: -90px;
+   } 
+
+   .apple-download{
+      background-color: #191826;
+      color: #fcfaf9;
+      opacity: 0.99;
+   }
+
+   .android-download{
+      background-color: #fcfaf9;
+      color: #191326;  
+   }
+
+   #footer{
+   display: flex;
+   flex-direction: column;
+   margin-top: 0px;
+   position: absolute;
+   top: 1650px;
+   }
+
+  .equilizer-footer{
+   margin-left: -17px;
+  }
+
+.social-icons{
+position: absolute;
+left: 150px;
+bottom: 50px;
+display: flex;
+flex-direction: row;
+}
+
+.Contact-info{
+   position: relative;
+   right: 200px;
+   margin-left: 220px;
+   margin-top: 20px;
+ }
+}
+
+/*mobile*/
+@media only screen and (min-width: 320px) and (max-width: 480px){
+
+   body{
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden;
+   }
+
+   .container{
+      background-image: url(/assets/bg-main-mobile.png);
+      margin: 0px;
+      padding: 0px;
+      max-width: 430px;
+      display: flex;
+     flex-direction: column;
+     }
+
+h1{
+   font-size: 40px;
+   line-height: 48px;
+   width: 327px;
+   height: 144px;
+   margin-top: 64.01px;
+}
+
+.description{
+   font-size: 16px;
+   width: 327px;
+   height: 156px;
+}
+
+.section{
+   width: 100vw;
+   height: 600px;
+   margin: 200px auto;
+}
+
+.background-design{
+   width: 280px;
+   height: 420px;
+position: absolute;
+left: 60px;
+top: 685px;
+}
+
+.illustration-app{
+width: 208.97px;
+height: 430px;
+position: absolute;
+left: 90px;
+top: 450px;
+}
+
+.subscription{
+width: 100vw;
+height: 546px;
+position:  absolute;
+left: -90%
+}
+
+.subscription-plan{
+   padding-top: 20px;
+   padding-left: 90px;
+}
+
+.subscription-info{
+   padding: 20px 10px 59px 10px; 
+}
+
+.price{
+   position: absolute;
+   top: 250px;
+}
+
+.apple-download{
+margin-top: 30px;
+margin-bottom: 5px;
+opacity: 0.99;
+}
+
+.android-download{
+   margin-top: 0px;
+  position: absolute;
+   top: 450px;
+   left: 35px;
+  
+}
+
+#footer{
+   display: flex;
+   flex-direction: column;
+   position: absolute;
+   top: 1500px;
+}
+
+.equilizer-footer{
+   margin-left: 6px;
+   position: absolute;
+   top: 10px;
+}
+
+.Contact-info{
+   position: absolute;
+   right: 205px;
+   top: 120px;
+}
+
+.social-icons{
+   position: relative;
+   top: 210px;
+   right: 450px;
+}
+}
+
+
+
+
+
+
+     
+
+     
