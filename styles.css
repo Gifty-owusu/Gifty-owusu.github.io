@@ -374,7 +374,8 @@ flex-direction: row;
       justify-content: center;
       margin: 0px;
       padding: 0px;
-      overflow-x: hidden;
+      
+     
      
    }
 
@@ -385,6 +386,7 @@ flex-direction: row;
       max-width: 430px;
       display: flex;
      flex-direction: column;
+     overflow-x: hidden;
      }
 
 h1{
