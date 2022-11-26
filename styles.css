@@ -9,13 +9,12 @@
    box-sizing: border-box;
 }
 body{
-   background-image: url(assets/bg-main-desktop.png);
    padding: 0px;
    margin: 0px;
 }
 
 .container{
-  
+   background-image: url(assets/bg-main-desktop.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0px;
@@ -272,14 +271,13 @@ span{
 @media only screen and  (min-width: 481px) and (max-width: 768px){
 
    body{
-      background-image: url(assets/bg-main-tablet.png);
-      margin: 0px;
+     margin: 0px;
       padding: 0px;
       min-height: 100vh;
    }
 
    .container{
-      
+      background-image: url(assets/bg-main-tablet.png);
       margin: 0px;
       padding: 0px;
       max-width: 768px;
@@ -371,7 +369,6 @@ flex-direction: row;
 @media only screen and (min-width: 320px) and (max-width: 480px){
 
    body{
-      background-image: url(assets/bg-main-mobile.png);
       min-height: 100vh;
       display: flex;
       justify-content: center;
@@ -382,7 +379,7 @@ flex-direction: row;
    }
 
    .container{
-      
+      background-image: url(assets/bg-main-mobile.png);
       margin: 0px;
       padding: 0px;
       max-width: 430px;
