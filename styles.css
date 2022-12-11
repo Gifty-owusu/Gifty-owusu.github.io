@@ -400,7 +400,7 @@ h1{
    .subscription{
     max-width: 375px;
     max-height: 546px;
-    margin: -18em auto;
+    margin: -18em 0em;
    }
 
   #footer{
