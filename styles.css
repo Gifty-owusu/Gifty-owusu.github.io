@@ -3,494 +3,425 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 
-*{
-   margin: 0px;
-   padding: 0px;
-   box-sizing: border-box;
+html{
+    font-family: IBM Plex sans;
 }
 body{
-   padding: 0px;
-   margin: 0px;
+    padding: 0em ;
+   margin: 0em;
 }
 
 .container{
-   background-image: url(assets/bg-main-desktop.png);
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    align-items: center;
+    position: relative;
+    min-height: 100vh;
+    padding: 2em 0em;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 0px;
-    margin: 0px;
-    overflow-x: hidden;
-   }
-
-   h2{
-    font-size: 40px;
-    padding-left: 35px;
-    font-family: IBM Plex sans;
-    padding-top: 50px;
-   }
-
-img{
-    height: 468px;
-    width: 312px;
-    position: absolute;
-    left: 1100px;
-    top: 0px;
-  }
-
-h1{
-    font-family: IBM Plex sans;
-    font-style: normal;
-    font-size: 88px;
-    font-weight: 700px;
-    line-height: 88px;
-    width: 1015px;
-    margin-top: 111px;
-    margin-right: 165px;
-    margin-left: 35px;
-    letter-spacing: -1px;
+    background-position: 50%;
 }
 
-     .description{
-        font-family: IBM Plex sans;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 400px;
-        line-height: 34px;
-        width: 852px;
-        height: 102px;
-        margin-left: 30px;
-        margin-top: 20px;
-     }
-
-    .section{
-         width: 1110px;
-         height: 539px;
-         background: #191826;
-         border-radius: 12px;
-         margin-top: 200px;
-         margin-left: 50px;
-         }
+h1{ 
+    font-weight: 700;
+    max-width: 1015px;
+    min-width: 327px;
+    max-height: 176px;
+    min-height: 144px;
+}
 
 .illustration-app{
-       position: absolute;
-       height: 642px;
-       width: 312px;
-       left: 350px;
-       top: 500px;
-       margin-top: 150px;
+    max-width: 280px;
+    min-height: 430px;
+    max-height: 600px;
+    min-width: 209px;
+    
 }
-
-.background-design{
-   position: absolute;
-   left: 584px;
-   top: 850px;
-   width: 312px;
-   height: 438px;
-}
-
-.subscription{
-   height: 625px;
-   width: 446px;
-   background: #fa7453;
-   border-radius: 12px;
-   position: absolute;
-   top: 950px;
-   left: 420px;
-   margin: 10px 380px 120px 380px;
-}
-
- .subscription-plan{
-   font-family: IBM Plex sans;
-   font-size: 40px;
-   font-weight: 700;
-   font-style: normal;
-   color: #fcfaf9;
-   line-height: 52px;
-   padding-left: 20px;
-   padding-right: 59px;
-   padding-top: 15px;
-}
-
- .subscription-info{
-   font-family: IBM Plex sans;
-   font-size: 20px;
-   font-style: normal;
-   font-weight: 400;
-   line-height: 34px;
-   padding: 10px 10px 59px 10px;
-   color: #fcfaf9;
-   text-align: left;
-   
- }  
- .price{
-  padding: 10px 50px 50px 55px;
- color: #fcfaf9;
- font-family: IBM Plex sans;
- 
- }
- 
- #price{
-   font-size: 50px;
-   font-weight: 900px;
-  position: relative;
-  top: 10px;
-  color: #fcfaf9;
- }
-
- .apple-download{
-   width: 333px;
-   height: 61px;
-   background-color: #191326;
-   border-radius: 12px;
-   opacity: 0.12;
-    margin: auto;
- }
-
- .apple{
-font-family: IBM Plex sans;
-font-size: 18px;
-color: #fcfaf9;
-font-style: normal;
-font-weight: 700;
-letter-spacing: -0.18px;
-line-height: 32px;
-position: relative;
-top: 15px;
-left: 90px;
- }
-
- #apple-icon{
-   color: #fcfaf9;
-
-}
-.android-download{
-   width: 333px;
-   height: 61px;
-   background: #fcfaf9;
-   border-radius: 12px;
-   position: relative;
-   top: 50px;
-   left: 50px;
-   right: 50px;
-}
-
-#android-icon{
-color: #191326;
-}
- 
-.android{
-   font-family: IBM Plex sans;
-   font-style: normal;
-   font-size: 18px;
-   font-weight: 700;
-   line-height: 32px;
-   position: relative;
-   top: 15px;
-   left: 80px;
-}
-
-#footer{
-   font-family: IBM Plex sans;
-   position: absolute;
-   top: 108em;
-   display: flex;
-   flex-direction: row;
-}
-
-.equilizer-footer{
-    font-size: 40px;
-    margin-left: 35px;
-    position: absolute;
-    bottom: 20px;
-    margin-top: 0px;
-   }
-
-.Contact-info{
-   font-family: IBM Plex sans;
-   width: 350px;
-   font-size: 16px;
-   line-height: 26px;
-   font-weight: 400;
-   margin-left: 400px;
-   text-align: left;
-  }
-
-span{
-   color: #191826;
-   font-weight: 700;
-   font-size: 16px;
-}
-
-.social-icons{
-  margin-left: 500px;
-  margin-top: 15px;
-  display: flex;
-  flex-direction: row;
-}
-#facebook{
-   
-   padding-right: 20px;
-}
-#instagram{
-   padding-right: 20px;
-}
-#twitter{
-   padding-right: 20px;
-}
-
-
-/*desktop active*/
-@media only screen and (min-width: 1024px) and (max-width: 1200px){
-   body{
-   padding: 0px;
-   margin: 0px;
-   }
-   .apple-download:hover{
-      background-color: #66e2dc;
-      opacity: 0.7;
-   }
-   .android-download:hover{
-      background-color: #ffb964;
-   }
-   .section{
-      max-width: 1110px;
-      min-height: 600px;
-   }
-   .background-design{
-      top: 780px;
-   }
-   .illustration-app{
-      top: 400px;
-   }
-   .subscription{
-     top: 900px
-   }
-    }
-
-/*tablet*/
-@media only screen and  (min-width: 481px) and (max-width: 768px){
-
-   body{
-     margin: 0px;
-      padding: 0px;
-      min-height: 100vh;
-   }
-
+/*desktop*/
    .container{
-      background-image: url(assets/bg-main-tablet.png);
-      margin: 0px;
-      padding: 0px;
-      max-width: 768px;
-     overflow-x: hidden;
+     background-image: url(assets/bg-main-desktop.png);
+     max-width: 1440px;
+     margin: 0em;
+     padding: 0em;
+   
    }
-
-   h1{
-      font-size: 64px;
-      width: 520px;
-      height: 192px;
-      line-height: 64px;
-      letter-spacing: -0.73;
+   h2{
+    font-size: 40px;
+    padding: 1em 4em;
    }
 
    img{
-      position: absolute;
-      left: 505px;
+    max-height: 468px;
+    max-width: 312px;
+   position: relative;
+   top: -13em;
+   left: 70em;
+   }
+   
+   h1{
+    font-size: 5.88em;
+    line-height: 7rem;
+    padding: 0em 1.5em;
+    position: relative;
+    top: -5em;
    }
 
    .description{
-      font-size: 18px;
-      width: 514px;
-      height: 112px;
-      margin-top: 50px;
+    font-size: 1.25em;
+    font-weight: 400;
+    line-height: 1.8em;
+    max-width: 825px;
+    margin-top: -22em;
+    padding-left: 7em;
    }
 
    .section{
-      width: 696px;
-      height: 600px;
-      margin-left: 30px;
-   }
-
-   .illustration-app{
-      position: absolute;
-      left: 90px;
+    max-width: 1110px;
+    max-height: 600px;
+    background: #191826;
+    border-radius: 12px;
+    margin-top: 15em;
+    margin-left: 10em;
+    
    }
 
    .background-design{
-      position: absolute;
-      left: 290px;
-      margin-top: 0px;
+    margin-left: -48em;
+    max-width: 312px;
+    max-height: 438px;
+    padding-top: 12em;
+    
+   }
+
+   .illustration-app{
+    position: relative;
+    top: -13em;
+    margin-left: -32em;
+    margin-top: -20em;
+    
    }
 
    .subscription{
-   position: absolute;
-      left: -90px;
-   } 
-
-   .apple-download{
-      background-color: #191826;
-      color: #fcfaf9;
-      opacity: 0.99;
-   }
-
-   .android-download{
-      background-color: #fcfaf9;
-      color: #191326;  
-   }
-
-   #footer{
-   display: flex;
-   flex-direction: column;
-   margin-top: 0px;
-   position: absolute;
-   top: 1650px;
-   }
-
-  .equilizer-footer{
-   margin-left: -17px;
+    height: 625px;
+    width: 446px;
+    background: #fa7453;
+    border-radius: 12px;
+    margin-top: -35em;
+    margin-left: 46em;
+    position: relative;
+    z-index: 1;
+    color: #fcfaf9;
+    text-align: center;
   }
 
-.social-icons{
-position: absolute;
-left: 150px;
-bottom: 50px;
-display: flex;
-flex-direction: row;
-}
+  .subscription-plan{
+    font-size: 2.500em;
+   font-weight: 700;
+   font-style: normal;
+   width: 333px;
+   height: 52px;
+   padding-left: 1em;
 
-.Contact-info{
-   position: relative;
-   right: 200px;
-   margin-left: 220px;
-   margin-top: 20px;
- }
-}
+  }
 
-/*mobile*/
-@media only screen and (min-width: 320px) and (max-width: 480px){
+  .subscription-info{
+    font-family: IBM Plex sans;
+    font-size: 1.250em;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8em;
+     text-align: left;
+     padding-left: 2.5em;
+     min-width: 302px;
+     min-height: 140px;
+     max-width: 333px;
+     max-height: 170px;
+     margin-top: -3em;
+  }
 
-   body{
-      min-height: 100vh;
-      display: flex;
-      justify-content: center;
-      margin: 0px;
-      padding: 0px;
-      
-     
-     
+  .price{
+   padding: 0em 3.125em 3.125em 0em;
+   margin-left: -6em;
+   margin-top: -2em;
+    }
+   
+   #price{
+    font-size: 4.063em;
+    font-weight: 900;
+    position: relative;
+    top: 0.3em;
+    color: #fcfaf9;
    }
 
-   .container{
-      background-image: url(assets/bg-main-mobile.png);
-      margin: 0px;
-      padding: 0px;
-      max-width: 430px;
-      display: flex;
-     flex-direction: column;
-     overflow-x: hidden;
+   .apple-download{
+    max-width: 333px;
+    min-height: 61px;
+    background-color: #191326;
+    border-radius: 12px;
+    margin: -1em auto 1em auto;
+    }
+
+   .apple{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: -0.18px;
+    position: relative;
+    top: 1em;
+    color: #fcfaf9;
+    }
+
+    .android-download{
+      max-width: 333px;
+      min-height: 61px;
+      background: #fcfaf9;
+      border-radius: 12px;
+      margin: 1em auto 1em auto;
+      }
+
+      .android{
+        font-family: IBM Plex sans;
+        font-style: normal;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 32px;
+        position: relative;
+        top: 1em;
+        color: #191326;
+
+      }
+
+      #footer{
+        display: flex;
+        flex-direction: row;
+      }
+
+      .Contact-info{
+        max-width: 350px;
+        font-size: 1em;
+        line-height: 26px;
+        font-weight: 400;
+        text-align: left;
+        padding-top: 4em;
+        }
+
+      span{
+        color: #191826;
+        font-weight: 700;
+        font-size: 1em;
+      }
+
+      .social-icons{
+        padding: 6em 5em 4em 25em;
+        display: flex;
+        flex-direction: row;
+      }
+
+      #facebook{
+         padding-right: 1.3em;
+      }
+
+      #instagram{
+         padding-right: 1.3em;
+      }
+      #twitter{
+         padding-right: 1.3em;
+      }
+
+      #facebook:hover, #instagram:hover, #twitter:hover{
+        color: #fa7453;
+        transform: scale(1.5);
+      }
+
+      .apple-download:hover{
+        background-color: #66e2dc;
+        opacity: 0.7;
+     }
+     .android-download:hover{
+        background-color: #ffb964;
      }
 
-h1{
-   font-size: 40px;
-   line-height: 48px;
-   width: 327px;
-   height: 144px;
-   margin-top: 64.01px;
+     /*tablet*/
+@media only screen and  (min-width: 481px) and (max-width: 768px){
+  body{
+    margin: 0em;
+     padding: 0em;
+     min-height: 100vh;
+  }
+
+  .container{
+    background-image: url(assets/bg-main-tablet.png);
+    margin: 0em;
+    padding: 0em;
+    max-width: 768px;
+   overflow-x: hidden;
 }
 
-.description{
-   font-size: 16px;
-   width: 327px;
-   height: 156px;
-}
+   h2{
+  font-size: 32px;
+  padding: 1em 2em;
+ }
 
-.section{
-   width: 100vw;
-   height: 600px;
-   margin: 200px auto;
-}
+ img{
+  position: relative;
+ top: -13em;
+ left: 34em;
+ max-width: 266.67px;
+ min-height: 400px;
+ line-height: 2em;
+ }
 
-.background-design{
-   width: 280px;
-   height: 420px;
-position: absolute;
-left: 60px;
-top: 685px;
-}
+ h1{
+  font-size: 3.88em;
+  line-height: 4.5rem;
+  padding: 0em 1.5em;
+  position: relative;
+  top: -7.5em;
+  margin-left: -0.5em;
+  max-width: 520px;
+  min-height: 192px;
 
-.illustration-app{
-width: 208.97px;
-height: 430px;
-position: absolute;
-left: 90px;
-top: 450px;
-}
+ }
 
-.subscription{
-width: 100vw;
-height: 546px;
-position:  absolute;
-left: -90%
-}
+ .description{
+  font-size: 1.125em;
+  max-width: 514px;
+  max-height: 112px;
+  padding-left: 3.5em;
+  margin-top: -24em;
+ }
 
-.subscription-plan{
-   padding-top: 20px;
-   padding-left: 90px;
-}
+ .section{
+  max-width: 696px;
+  min-height: 600px;
+  position: relative;
+  margin-left: 1.5em;
+  margin-right: 0em;
+  margin-top: 12em;
+ }
 
-.subscription-info{
-   padding: 20px 10px 59px 10px; 
-}
+ .background-design{
+  max-width: 280px;
+  min-height: 420px;
+  padding: 13em 28em;
+ }
 
-.price{
-   position: absolute;
-   top: 250px;
-}
+ .illustration-app{
+  max-width: 270px;
+  min-height: 556px;
+  margin-right: 50em;
+  position: relative;
+  top: -41em;
+  padding-left: 2em;
+ }
 
-.apple-download{
-margin-top: 30px;
-margin-bottom: 5px;
-opacity: 0.99;
-}
+ .subscription{
+  max-width: 420px;
+  max-height: 560px;
+  position: relative;
+  left: -30em;
+  top: 2em;
+ }
 
-.android-download{
-   margin-top: 0px;
-  position: absolute;
-   top: 450px;
-   left: 35px;
-  
-}
+ #footer{
+  margin-top: 7em;
+  display: grid;
+ }
 
-#footer{
-   display: flex;
-   flex-direction: column;
-   position: absolute;
-   top: 1500px;
-}
-
-.equilizer-footer{
-   margin-left: 6px;
-   position: absolute;
-   top: 10px;
-}
-
-.Contact-info{
-   position: absolute;
-   right: 205px;
-   top: 120px;
-}
+ .Contact-info{
+  margin-top: -5em;
+  margin-left: 3.5em;
+ }
 
 .social-icons{
-   position: relative;
-   top: 210px;
-   right: 450px;
+  margin-left: 12em;
+  margin-top: -10em;
 }
 }
 
 
 
+   /*mobile*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .container{
+    background-image: url(assets/bg-main-mobile.png);
+    background-size: cover;
+    background-position: 60%;
+  }
+   h2{
+    font-size: 30px;
+    padding-left: 0.5em;
+    margin-top: 2em;
+   }
+
+   h1{
+    font-size: 2.5em;
+    line-height: 1.2em;
+    margin-top: -6em;
+    padding-left: 0.5em;
+    
+   }
+
+   .description{
+    margin-top: -13em;
+    max-height: 100px;
+    padding-left: 0.5em;
+   font-size: 1rem;
+   }
+
+   .section{
+    max-width: 375px;
+    max-height: 600px;
+    margin-left: 0em;
+    margin-right: 0em;
+   }
+
+   .background-design{
+    max-width: 280px;
+  min-height: 420px;
+  padding-top: 13em;
+  position: relative;
+  left: 50.5em;
+
+ 
+ }
+   .illustration-app{
+    max-width: 170px;
+    min-height: 456px;
+    margin-top: 2em;
+    position: relative;
+    top: -17em;
+    margin-left: -34.5em;
+   
+  
+   }
+
+   .subscription{
+    max-width: 375px;
+    max-height: 546px;
+    margin: -18em auto;
+   }
+
+  #footer{
+    display: grid;
+    margin-top: 15em;
+  }
+
+  .Contact-info{
+    margin-top: -5em;
+    padding-left: 0.5em;
+  }
+
+  .social-icons{
+position: absolute;
+left: -24em;
+top: 110em;
+  }
+  }
+  
 
 
+    
 
-     
-
-     
+    
