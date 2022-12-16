@@ -105,7 +105,7 @@ h1{
 
    .subscription{
     min-height: 625px;
-    min-width: 446px;
+    max-width: 446px;
     background: #fa7453;
     border-radius: 12px;
     margin-top: -35em;
@@ -318,7 +318,7 @@ h1{
  }
 
  .subscription{
-  max-width: 420px;
+  width: 420px;
   max-height: 560px;
   position: relative;
   left: -30em;
