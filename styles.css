@@ -5,6 +5,7 @@
 
 html{
     font-family: IBM Plex sans;
+    scroll-behavior: smooth;
 }
 body{
     padding: 0em ;
