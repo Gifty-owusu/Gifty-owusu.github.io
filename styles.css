@@ -13,7 +13,7 @@ body{
 }
 
 .container{
-    overflow-x: hidden;
+  
     background-repeat: no-repeat;
     align-items: center;
     position: relative;
@@ -21,23 +21,29 @@ body{
     padding: 2em 0em;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50%;
+    background-position: 100%;
 }
 
 h1{ 
     font-weight: 700;
-    max-width: 1015px;
-    min-width: 327px;
-    max-height: 176px;
-    min-height: 144px;
-}
+    }
+
+    img{
+      position: relative;
+      top: -15em;
+      left: 68em;
+      margin-right: 0em;
+      margin-left: 0em;
+      max-width: 312px;
+   
+      }
 
 .illustration-app{
     max-width: 280px;
     min-height: 430px;
     max-height: 600px;
     min-width: 209px;
-    
+
 }
 /*desktop*/
    .container{
@@ -49,24 +55,19 @@ h1{
    }
    h2{
     font-size: 40px;
-    padding: 1em 4em;
+    padding: 1em 2.5em;
+    
    }
 
-   img{
-    max-height: 468px;
-    max-width: 312px;
-   position: relative;
-   top: -13em;
-   left: 70em;
-   }
+   
    
    h1{
     font-size: 5.88em;
     line-height: 7rem;
-    padding: 0em 1.5em;
+    padding: 0em 1.5em 0em 1em;
     position: relative;
     top: -5em;
-   }
+    }
 
    .description{
     font-size: 1.25em;
@@ -75,7 +76,8 @@ h1{
     max-width: 825px;
     margin-top: -22em;
     padding-left: 7em;
-   }
+    margin-top: -22em;
+    }
 
    .section{
     max-width: 1110px;
@@ -83,16 +85,15 @@ h1{
     background: #191826;
     border-radius: 12px;
     margin-top: 15em;
-    margin-left: 10em;
-    
-   }
+    margin-left: 5em;
+    margin-right: 5em;
+    }
 
    .background-design{
     margin-left: -48em;
-    max-width: 312px;
-    max-height: 438px;
-    padding-top: 12em;
-    
+    padding-top: 12.5em;
+    width: 350px;
+    max-width: 40%;
    }
 
    .illustration-app{
@@ -100,29 +101,33 @@ h1{
     top: -13em;
     margin-left: -32em;
     margin-top: -20em;
-    
-   }
+    margin-right: -42em;
+    max-width: 280px;
+    max-height: 608px;
+  }
 
    .subscription{
-    min-height: 625px;
-    max-width: 446px;
+    max-height: 645px;
+    max-width: 444px;
+    
     background: #fa7453;
     border-radius: 12px;
     margin-top: -35em;
-    margin-left: 46em;
-    position: relative;
-    z-index: 1;
+    margin-left: 40em;
+    margin-right: 10em;
     color: #fcfaf9;
     text-align: center;
+    position: relative;
+    z-index: 1;
   }
 
+
   .subscription-plan{
-    font-size: 2.500em;
+   font-size: 2.500em;
    font-weight: 700;
    font-style: normal;
-   width: 333px;
-   height: 52px;
    padding-left: 1em;
+   padding-right: 1em;
 
   }
 
@@ -134,10 +139,7 @@ h1{
     line-height: 1.8em;
      text-align: left;
      padding-left: 2.5em;
-     min-width: 302px;
-     min-height: 140px;
-     max-width: 333px;
-     max-height: 170px;
+     padding-right: 2.5em;
      margin-top: -3em;
   }
 
@@ -160,11 +162,13 @@ h1{
     min-height: 61px;
     background-color: #191326;
     border-radius: 12px;
-    margin: -1em auto 1em auto;
+    margin: -2em auto 2em auto;
+    position: relative;
+    top: -1em;
     }
 
    .apple{
-    font-size: 18px;
+    font-size: 0.9em;
     font-style: normal;
     font-weight: 700;
     letter-spacing: -0.18px;
@@ -178,15 +182,16 @@ h1{
       min-height: 61px;
       background: #fcfaf9;
       border-radius: 12px;
-      margin: 1em auto 1em auto;
+      margin: 2em auto 2em auto;
+      position: relative;
+      top: -2em;
       }
 
       .android{
         font-family: IBM Plex sans;
         font-style: normal;
-        font-size: 18px;
+        font-size: 0.9em;
         font-weight: 700;
-        line-height: 32px;
         position: relative;
         top: 1em;
         color: #191326;
@@ -199,7 +204,8 @@ h1{
       }
 
       .Contact-info{
-        max-width: 350px;
+        width: 350px;
+        max-width: 60%;
         font-size: 1em;
         line-height: 26px;
         font-weight: 400;
@@ -217,6 +223,7 @@ h1{
         padding: 6em 5em 4em 25em;
         display: flex;
         flex-direction: row;
+        
       }
 
       #facebook{
@@ -242,6 +249,69 @@ h1{
      .android-download:hover{
         background-color: #ffb964;
      }
+    
+     @media only screen and  (min-width: 769px) and (max-width: 1200px){
+     .container{
+      max-width: 1200px;
+     }
+        h1{
+        font-size: 4em;
+        margin-top: 0em;
+        line-height: 1.2em;
+        margin-left: 0.5em;
+        margin-right: 0.2em;
+      }
+      h2{
+        margin-left: 0.2em;
+      }
+      img{
+        position: relative;
+        left: 50em;
+        margin-right: 0em;
+        padding-right: 0em;
+        margin-left: 1em;
+        max-width: 212px;
+     
+      }
+      .description{
+        font-size: 1.1em;
+        padding-left: 6em;
+        padding-top: 1.5em;
+      }
+      .illustration-app{
+     margin-left: -32em;
+     margin-right: 14em;
+     margin-top: -15em;
+      }
+      .background-design{
+        padding-left: 15em;
+        position: relative;
+        top: -12.5em;
+      }
+      .subscription{
+    min-height: 625px;
+    border-radius: 12px;
+    margin-top: -35em;
+    margin-left: 20em;
+    margin-right: 10em;
+    
+      }
+      .subscription-info{
+        font-size: 1rem;
+      }
+
+      .price{
+        font-size: 0.8rem;
+      }
+      .apple-download , .android-download{
+        margin-right: 2em;
+        margin-left: 2em;
+        margin-bottom: 1em;
+      }
+      .social-icons{
+        margin-left: -18em;
+      }
+     }
 
      /*tablet*/
 @media only screen and  (min-width: 481px) and (max-width: 768px){
@@ -256,7 +326,8 @@ h1{
     margin: 0em;
     padding: 0em;
     max-width: 768px;
-   overflow-x: hidden;
+    overflow-x: hidden;
+    max-width: 1042px;
 }
 
    h2{
@@ -303,31 +374,64 @@ h1{
  }
 
  .background-design{
-  max-width: 280px;
-  min-height: 420px;
+  width: 280px;
+  max-height: 420px;
   padding: 13em 28em;
  }
 
  .illustration-app{
-  max-width: 270px;
-  min-height: 556px;
+  width: 270px;
+  max-width: 40%;
+  max-height: 556px;
   margin-right: 50em;
+ 
   position: relative;
   top: -41em;
   padding-left: 2em;
  }
 
  .subscription{
-  width: 420px;
-  max-height: 560px;
+  width: 399px;
+  max-width: 50%;
+  height: 560px;
   position: relative;
-  left: -30em;
+  left: -24em;
   top: 2em;
+ }
+
+ .subscription-plan{
+  font-size: 30px;
+ position: relative;
+ top: -0.5em;
+ }
+
+ .subscription-info{
+  font-size: 15px;
+ }
+
+ .price{
+  font-size: 0.6rem;
  }
 
  #footer{
   margin-top: 7em;
   display: grid;
+ }
+
+ .apple-download , .android-download{
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  margin-top: -1em;
+ }
+
+ .apple-download{
+  position: relative;
+  top: 0.5em;
+ }
+
+ .android-download{
+  position: relative;
+  top: 0.5em;
  }
 
  .Contact-info{
@@ -336,7 +440,7 @@ h1{
  }
 
 .social-icons{
-  margin-left: 12em;
+  margin-left: 2em;
   margin-top: -10em;
 }
 }
@@ -344,17 +448,19 @@ h1{
 
 
    /*mobile*/
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 50px) and (max-width: 480px) {
   .container{
     background-image: url(assets/bg-main-mobile.png);
     background-size: cover;
     background-position: 60%;
     overflow-x: hidden;
+    
   }
    h2{
-    font-size: 30px;
+    font-size: 2em;
     padding-left: 0.5em;
     margin-top: 2em;
+   
    }
 
    .equalizer-header{
@@ -362,51 +468,52 @@ h1{
    }
 
    h1{
-    font-size: 2.5em;
+    font-size: 2.5rem;
     line-height: 1.2em;
     margin-top: -6em;
     padding-left: 0.5em;
-    
    }
 
    .description{
     margin-top: -13em;
-    max-height: 100px;
-    padding-left: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
    font-size: 1rem;
    }
 
    .section{
-    max-width: 480px;
+    width: 480px;
+    max-width: 100%;
     max-height: 600px;
     margin-left: 0em;
     margin-right: 0em;
    }
 
    .background-design{
-    max-width: 280px;
+  max-width: 280px;
+  max-width: 50%;
   min-height: 420px;
   padding-top: 13em;
   position: relative;
-  left: 50.5em;
+  left: 55.5em;
 
  
  }
    .illustration-app{
-    max-width: 170px;
-    min-height: 456px;
+    width: 170px;
+    max-width: 20%;
+    height: 456px;
+    max-height: 10%;
     margin-top: 2em;
     position: relative;
     top: -17em;
-    margin-left: -35.5em;
-   
-    
+    left: 73em;
     
    }
 
    .subscription{
-    max-width: 480px;
-    min-width: 320PX;
+    width: 480px;
+    max-width: 100%;
     max-height: 546px;
     margin: -18em 0em;
    
@@ -435,35 +542,51 @@ h1{
   }
 
   .subscription-plan{
-    margin-left: -1.5em;
+    padding-left: 0.5em;
+    padding-right: 1.5em;
+    font-size: 30px;
+    padding-top: 0.5em;
+
   }
   .subscription-info{
-    margin-left: -1em;
-  }
+    font-size: 15px;
+    padding: 0.5em 0.5em;
+    
+    }
   .price{
-    margin-top: 2em;
-    padding-left: 1em;
+    padding-left: 0.5em 1em;
+    font-size: 0.8em;
   }
+   .Contact-info{
+    font-size: 0.8rem;
+   }
 
   .social-icons{
-position: absolute;
+position: relative;
 left: -24em;
-top: 112em;
+top: -6em;
 padding-top: 10em;
   }
 }
 @media only screen and (max-width: 480px){
   .apple-download{
     max-width: 280px;
+   
     margin-left: 3.5em;
-    margin-top: 1em;
+    margin-top: -0.2em;
     margin-right: 3.5em;
+    padding: 0.1em 0.1em;
+    position: relative;
+    top: -2em;
     
   }
   .android-download{
     max-width: 280px;
     margin-left: 3.5em;
     margin-right: 3.5em;
+    margin-top: -0.2em;
+    position: relative;
+    top: -2.5em;
   }
 }
 
