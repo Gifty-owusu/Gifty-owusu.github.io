@@ -315,7 +315,7 @@ h1{
      }
 
      /*tablet*/
-@media only screen and  (min-width: 481px) and (max-width: 768px){
+@media only screen and  (min-width: 501px) and (max-width: 768px){
   body{
     margin: 0em;
      padding: 0em;
@@ -449,7 +449,7 @@ h1{
 
 
    /*mobile*/
-@media only screen and (min-width: 50px) and (max-width: 480px) {
+@media only screen and (min-width: 50px) and (max-width: 500px) {
   .container{
     background-image: url(assets/bg-main-mobile.png);
     background-size: cover;
@@ -483,7 +483,7 @@ h1{
    }
 
    .section{
-    width: 480px;
+    width: 500px;
     max-width: 100%;
     max-height: 600px;
     margin-left: 0em;
@@ -513,7 +513,7 @@ h1{
    }
 
    .subscription{
-    width: 480px;
+    width: 500px;
     max-width: 100%;
     max-height: 546px;
     margin: -18em 0em;
