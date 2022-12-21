@@ -31,7 +31,7 @@ h1{
     img{
       position: relative;
       top: -15em;
-      left: 75em;
+      left: 79em;
       margin-right: 0em;
       margin-left: 0em;
       max-width: 312px;
@@ -448,7 +448,7 @@ h1{
 
 
    /*mobile*/
-@media only screen and (min-width: 200px) and (max-width: 480px) {
+@media only screen and (min-width: 50px) and (max-width: 480px) {
   .container{
     background-image: url(assets/bg-main-mobile.png);
     background-size: cover;
