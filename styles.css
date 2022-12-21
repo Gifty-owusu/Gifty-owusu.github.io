@@ -31,7 +31,7 @@ h1{
     img{
       position: relative;
       top: -15em;
-      left: 68em;
+      left: 72em;
       margin-right: 0em;
       margin-left: 0em;
       max-width: 312px;
@@ -60,7 +60,7 @@ h1{
    }
 
    h1{
-    font-size: 5.88em;
+    font-size: 6em;
     line-height: 7rem;
     padding: 0em 1.5em 0em 1em;
     position: relative;
@@ -532,6 +532,9 @@ h1{
     max-width: 280px;
     margin-left: 1.5em;
     margin-top: 1em;
+    max-width: 280px;
+   
+    
     
   }
   .android-download{
@@ -568,14 +571,12 @@ padding-top: 10em;
 }
 @media only screen and (max-width: 480px){
   .apple-download{
-    max-width: 280px;
-   
     margin-left: 3.5em;
     margin-top: -0.2em;
     margin-right: 3.5em;
     padding: 0.1em 0.1em;
     position: relative;
-    top: -2em;
+    top: -2em; 
     
   }
   .android-download{
