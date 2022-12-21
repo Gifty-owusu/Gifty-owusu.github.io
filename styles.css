@@ -31,7 +31,7 @@ h1{
     img{
       position: relative;
       top: -15em;
-      left: 79em;
+      left: 82em;
       margin-right: 0em;
       margin-left: 0em;
       max-width: 312px;
@@ -48,11 +48,11 @@ h1{
 /*desktop*/
    .container{
      background-image: url(assets/bg-main-desktop.png);
-     max-width: 1440px;
+     
      margin: 0em;
      padding: 0em;
    
-     
+
    }
    h2{
     font-size: 40px;
