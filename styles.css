@@ -241,14 +241,19 @@ h1{
       #facebook:hover, #instagram:hover, #twitter:hover{
         color: #fa7453;
         transform: scale(1.5);
+        cursor: pointer;
       }
+
+      
 
       .apple-download:hover{
         background-color: #66e2dc;
         opacity: 0.7;
+        cursor: pointer;
      }
      .android-download:hover{
         background-color: #ffb964;
+        cursor: pointer;
      }
     
      @media only screen and  (min-width: 769px) and (max-width: 1200px){
